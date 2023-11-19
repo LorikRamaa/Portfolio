@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorik Rama &bullet; Web Developer, Graphic Designer</title>
+    <link rel="stylesheet" href="./assets/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
+    />
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <section id="header">
+      <div class="settings__label">
+        <div class="settings__bar">
+          <h2 class="settings__h1">Settings</h2>
+          <i class="uil uil-times settings__toggle__close"></i>
+        </div>
+        <div class="settings__color__label">
+          <h3 class="settings__colors__h3">Select theme</h3>
+          <div class="settings-colors">
+            <br />
+            <button
+              class="color__styled__border first__color__button border__color__active__first"
+            >
+              <span class="first__color color__theme"></span>
+            </button>
+            <button class="color__styled__border second__color__button">
+              <div class="second__color color__theme"></div>
+            </button>
+            <button class="color__styled__border third__color__button">
+              <div class="third__color color__theme"></div>
+            </button>
+            <button class="color__styled__border fourth__color__button">
+              <div class="fourth__color color__theme"></div>
+            </button>
+            <button class="color__styled__border fifth__color__button">
+              <div class="fifth__color color__theme"></div>
+            </button>
+          </div>
+        </div>
+        <div class="background__change__label">
+          <label class="bg-change">
+            <input type="checkbox" id="checkbox" class="checked" />
+            <span class="check"></span>
+          </label>
+        </div>
+      </div>
+      <div class="body__overlay"></div>
+      <header class="navbar">
+        <div class="nav-container">
+          <div class="logo-div">
+            <a href="#" class="logo-text">Lorik Rama</a>
+            <svg
+              class="logo"
+              viewBox="0 0 200 187"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+              />
+            </svg>
+          </div>
+          <button class="menu__toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="nav-links" id="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#education">Education</a>
+            <a href="#works">Works</a>
+            <a href="#contact">Contact</a>
+            <a class="uil uil-setting settings__toggle"></a>
+          </nav>
+        </div>
+      </header>
+    </section>
+    <!-- home -->
+    <section id="home">
+      <div class="home-content">
+        <div class="social-medias">
+          <a
+            href="https://instagram.com/infinitdesign_ks"
+            class="fab fa-instagram"
+            target="blank"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/lorikramaa"
+            class="fab fa-linkedin-in"
+            target="blank"
+          ></a>
+          <a
+            href="https://github.com/LorikRamaa"
+            class="fab fa-github"
+            target="blank"
+          ></a>
+        </div>
+        <div class="home_container">
+          <div class="home_content_div">
+            <div class="home-text">
+              <h1>
+                H'i! <br />
+                I'm Lorik Rama
+              </h1>
+              <h3>Front end developer</h3>
+              <a href="#contact">
+                <button class="contact-btn contact__btn">
+                  Contact me <i class="fas fa-paper-plane"></i></button
+              ></a>
+            </div>
+            <div class="profile-image">
+              <svg
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                class="profile__image__svg"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home_blob-img"
+                    x="12"
+                    y="18"
+                    xlink:href="assets/images/lorik-profil-picture.png"
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h1 class="h1shat about-me-h1">About me</h1>
+        <div class="about-content">
+          <div class="profile-image">
+            <svg
+              class="profile__image__svg about__svg"
+              viewBox="0 0 200 187"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <mask id="mask0" mask-type="alpha">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                />
+              </mask>
+              <g mask="url(#mask0)">
+                <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                />
+                <image
+                  class="home_blob-img"
+                  x="12"
+                  y="18"
+                  xlink:href="assets/images/lorik-profil-picture.png"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="about-text">
+            <h1>Hello</h1>
+            <h1 class="whoami">I'm <b> Lorik Rama</b></h1>
+            <h2>Profile: Front end Developer</h2>
+            <p>
+              Hello! I am <b> Lorik Rama</b> I am a Web Developer, Web Designer,
+              Graphic Designer. I started to like programming and so I decided
+              to continue learning more and more about coding. I have finished
+              many programming courses where I also graduated.
+            </p>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="90"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="80"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">Javascript</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">Bootstrap</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <h1 class="h1shat services-h1">Services</h1>
+        <div class="services-content">
+          <div class="services__boxes">
+            <div class="services__box">
+              <i class="icon uil uil-arrow services__box__i"></i>
+              <h4>Web Development</h4>
+            </div>
+            <div class="services__box">
+              <i class="icon uil uil-web-grid services__box__i"></i>
+              <h4>Graphic Design</h4>
+            </div>
+            <div class="services__box">
+              <i class="icon uil uil-megaphone services__box__i"></i>
+              <h4>Branding</h4>
+            </div>
+            <div class="services__box">
+              <i class="icon uil uil-share-alt services__box__i"></i>
+              <h4>Social Media</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education and experience -->
+    <section id="education">
+      <div class="container">
+        <h1 class="h1shat education__h1">Education</h1>
+        <div class="education__content">
+          <div class="education__info">
+            <div>
+              <div class="software__info">
+                <h3 class="education__h3">Software Engingering</h3>
+                <p class="education__p">2018-2021</p>
+              </div>
+            </div>
+            <div class="middle">
+              <span class="rounded"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="education__info">
+            <div></div>
+            <div class="middle">
+              <span class="rounded"></span>
+              <span class="line"></span>
+            </div>
+            <div>
+              <div class="software__info">
+                <h3 class="education__h3">Web Development</h3>
+                <p class="education__p">2019-2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="education__info">
+            <div>
+              <div class="software__info">
+                <h3 class="education__h3">Graphic Design</h3>
+                <p class="education__p">2020-2021</p>
+              </div>
+            </div>
+            <div class="middle">
+              <span class="rounded"></span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="education__info">
+            <div></div>
+            <div class="middle">
+              <span class="rounded"></span>
+            </div>
+            <div>
+              <div class="software__info">
+                <h3 class="education__h3">Master in Ui/Ux</h3>
+                <p class="education__p">2020-2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <h1 class="h1shat works__h1">Works</h1>
+        <div class="works__content">
+          <div class="works__gallery">
+            <div class="works__images">
+              <div class="works__box">
+                <img src="assets/images/1.png" alt="" />
+                <div class="info">
+                  <h3>Interior Design</h3>
+                </div>
+              </div>
+              <div class="works__box">
+                <img src="assets/images/2.png" alt="" />
+                <div class="info">
+                  <h3>Booking Kosova</h3>
+                </div>
+              </div>
+              <div class="works__box">
+                <img src="assets/images/3.png" alt="" />
+                <div class="info">
+                  <h3>Infinit Design</h3>
+                </div>
+              </div>
+              <div class="works__box">
+                <img src="assets/images/4.png" alt="" />
+                <div class="info">
+                  <h3>Visuella</h3>
+                </div>
+              </div>
+              <div class="works__box">
+                <a
+                  href="https://innovationacademy-ks.com/laksh/cyber%20security/index.html"
+                  target="blank"
+                >
+                  <img src="assets/images/5.png" alt="" />
+                  <div class="info">
+                    <h3>Cyber Security</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="works__box">
+                <a
+                  href="https://innovationacademy-ks.com/savewater"
+                  target="blank"
+                >
+                  <img src="assets/images/6.png" alt="" />
+                  <div class="info">
+                    <h3>Save Water</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="wrapper__content">
+      <div class="elementor-shape elementor-shape-bottom" data-negative="false">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1000 100"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="elementor-shape-fill"
+            d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"
+          ></path>
+        </svg>
+      </div>
+      <div class="wrapper">
+        <!-- Contact -->
+        <section id="contact">
+          <div class="container">
+            <div class="content__wrapper">
+              <h1 class="h1shat contact__h1">Get in touch</h1>
+              <div class="contact__content">
+                <div class="contact__infos">
+                  <div class="contact__infos__content">
+                    <div class="c__i__text">
+                      <p style="font-size: 17px; padding: 10px 0">
+                        If you want to contact for work or something else, use
+                        social media, gmail or phone number.
+                      </p>
+                    </div>
+                    <div class="contact__three_cols">
+                      <div class="c__i__text">
+                        <p class="contact__location">
+                          <i class="fas fa-map-marker-alt"></i> Vushtrri, Kosova
+                        </p>
+                      </div>
+                      <div class="c__i__text">
+                        <p class="contact__phone">
+                          <i class="fas fa-phone-alt"></i> +383 (0) 44-547-028
+                        </p>
+                      </div>
+                      <div class="c__i__text">
+                        <p class="contact__email">
+                          <i class="fas fa-envelope"></i>
+                          Lorikrama07@gmail.com
+                        </p>
+                      </div>
+                    </div>
+                    <!-- <div class="contact__sm">
+                      <a
+                        href="https://instagram.com/infinitdesign_ks"
+                        class="fab fa-instagram"
+                        target="blank"
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/lorikrama"
+                        class="fab fa-linkedin-in"
+                        target="blank"
+                      ></a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fotter -->
+        <section id="fotter">
+          <div class="container">
+            <div class="footer__content">
+              <div class="fotter__groups">
+                <p class="fotter__p">
+                  This Website is Designed & Developed by <b>Lorik Rama</b>
+                </p>
+                <div class="fotter__sm">
+                  <a
+                    href="https://instagram.com/infinitdesign_ks"
+                    class="fab fa-instagram"
+                    target="blank"
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/InfinitDesiign"
+                    class="fab fa-facebook-f"
+                    target="blank"
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/lorikramaa"
+                    class="fab fa-linkedin-in"
+                    target="blank"
+                  ></a>
+
+                  <a
+                    href="https://www.behance.net/lorikrama1"
+                    class="fa-brands fa-square-behance"
+                    target="blank"
+                  ></a>
+                  <a
+                    href="https://github.com/LorikRamaa"
+                    class="fab fa-github"
+                    target="blank"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- Javascript links -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
