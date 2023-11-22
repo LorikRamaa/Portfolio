@@ -351,6 +351,9 @@ body.dark .logo-text {
   width: 300px;
   fill: #007bff;
 }
+.profile-image image {
+  width: 100%;
+}
 .profile__image__svg.first__color__svg,
 .logo.first__color__svg {
   fill: #007bff;
