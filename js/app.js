@@ -22,14 +22,7 @@ $(document).ready(function () {
     $(".settings__toggle").toggleClass("settings__toggle__active");
     $(".body__overlay").toggleClass("body__overlay__active");
   });
-  // $(".color__styled__border").click(function () {
-  //   $(this).toggleClass("border__color__active");
-  //   $(".first__color__button").addClass("border__color__active__first");
-  //   $(".color__styled__border").removeClass("border__color__active__second");
-  //   $(".color__styled__border").removeClass("border__color__active__third");
-  //   $(".color__styled__border").removeClass("border__color__active__fourth");
-  //   $(".color__styled__border").removeClass("border__color__active__fifth");
-  // });
+
   $(".first__color__button").click(function () {
     $(this).toggleClass("border__color__active");
     //border active
@@ -63,11 +56,11 @@ $(document).ready(function () {
     $(".contact__btn").removeClass("fourth__color__bg");
     $(".contact__btn").removeClass("fifth__color__bg");
     // contact btn
-    $(".cv_button").addClass("first__color__bg");
-    $(".cv_button").removeClass("second__color__bg");
-    $(".cv_button").removeClass("third__color__bg");
-    $(".cv_button").removeClass("fourth__color__bg");
-    $(".cv_button").removeClass("fifth__color__bg");
+    $(".error").addClass("first__color__bg");
+    $(".error").removeClass("second__color__bg");
+    $(".error").removeClass("third__color__bg");
+    $(".error").removeClass("fourth__color__bg");
+    $(".error").removeClass("fifth__color__bg");
     // h1shat
     $(".h1shat").addClass("first__color__h1");
     $(".h1shat").removeClass("second__color__h1");
@@ -98,11 +91,11 @@ $(document).ready(function () {
     $(".line").removeClass("fourth__color__bg");
     $(".line").removeClass("fifth__color__bg");
     // works
-    $(".works__box").addClass("first__color__bg");
-    $(".works__box").removeClass("second__color__bg");
-    $(".works__box").removeClass("third__color__bg");
-    $(".works__box").removeClass("fourth__color__bg");
-    $(".works__box").removeClass("fifth__color__bg");
+    $(".works__btn").addClass("first__color__bg");
+    $(".works__btn").removeClass("second__color__bg");
+    $(".works__btn").removeClass("third__color__bg");
+    $(".works__btn").removeClass("fourth__color__bg");
+    $(".works__btn").removeClass("fifth__color__bg");
     // contact
     $(".submit__btn").addClass("first__color__bg");
     $(".submit__btn").removeClass("second__color__bg");
@@ -145,11 +138,11 @@ $(document).ready(function () {
     $(".contact__btn").removeClass("fourth__color__bg");
     $(".contact__btn").removeClass("first__color__bg");
     // contact btn
-    $(".cv_button").addClass("second__color__bg");
-    $(".cv_button").removeClass("first__color__bg");
-    $(".cv_button").removeClass("third__color__bg");
-    $(".cv_button").removeClass("fourth__color__bg");
-    $(".cv_button").removeClass("fifth__color__bg");
+    $(".error").addClass("second__color__bg");
+    $(".error").removeClass("first__color__bg");
+    $(".error").removeClass("third__color__bg");
+    $(".error").removeClass("fourth__color__bg");
+    $(".error").removeClass("fifth__color__bg");
     // h1shat
     $(".h1shat").addClass("second__color__h1");
     $(".h1shat").removeClass("fifth__color__h1");
@@ -180,11 +173,11 @@ $(document).ready(function () {
     $(".line").removeClass("fourth__color__bg");
     $(".line").removeClass("fifth__color__bg");
     // works
-    $(".works__box").addClass("second__color__bg");
-    $(".works__box").removeClass("first__color__bg");
-    $(".works__box").removeClass("third__color__bg");
-    $(".works__box").removeClass("fourth__color__bg");
-    $(".works__box").removeClass("fifth__color__bg");
+    $(".works__btn").addClass("second__color__bg");
+    $(".works__btn").removeClass("first__color__bg");
+    $(".works__btn").removeClass("third__color__bg");
+    $(".works__btn").removeClass("fourth__color__bg");
+    $(".works__btn").removeClass("fifth__color__bg");
     // contact
     $(".submit__btn").addClass("second__color__bg");
     $(".submit__btn").removeClass("first__color__bg");
@@ -227,11 +220,11 @@ $(document).ready(function () {
     $(".contact__btn").removeClass("first__color__bg");
 
     // contact btn
-    $(".cv_button").addClass("third__color__bg");
-    $(".cv_button").removeClass("first__color__bg");
-    $(".cv_button").removeClass("second__color__bg");
-    $(".cv_button").removeClass("fourth__color__bg");
-    $(".cv_button").removeClass("fifth__color__bg");
+    $(".error").addClass("third__color__bg");
+    $(".error").removeClass("first__color__bg");
+    $(".error").removeClass("second__color__bg");
+    $(".error").removeClass("fourth__color__bg");
+    $(".error").removeClass("fifth__color__bg");
 
     // h1shat
     $(".h1shat").addClass("third__color__h1");
@@ -265,11 +258,11 @@ $(document).ready(function () {
     $(".line").removeClass("fifth__color__bg");
 
     // works
-    $(".works__box").addClass("third__color__bg");
-    $(".works__box").removeClass("second__color__bg");
-    $(".works__box").removeClass("first__color__bg");
-    $(".works__box").removeClass("fourth__color__bg");
-    $(".works__box").removeClass("fifth__color__bg");
+    $(".works__btn").addClass("third__color__bg");
+    $(".works__btn").removeClass("second__color__bg");
+    $(".works__btn").removeClass("first__color__bg");
+    $(".works__btn").removeClass("fourth__color__bg");
+    $(".works__btn").removeClass("fifth__color__bg");
     // contact
     $(".submit__btn").addClass("third__color__bg");
     $(".submit__btn").removeClass("second__color__bg");
@@ -311,11 +304,11 @@ $(document).ready(function () {
     $(".contact__btn").removeClass("fifth__color__bg");
 
     // contact btn
-    $(".cv_button").addClass("fourth__color__bg");
-    $(".cv_button").removeClass("first__color__bg");
-    $(".cv_button").removeClass("third__color__bg");
-    $(".cv_button").removeClass("second__color__bg");
-    $(".cv_button").removeClass("fifth__color__bg");
+    $(".error").addClass("fourth__color__bg");
+    $(".error").removeClass("first__color__bg");
+    $(".error").removeClass("third__color__bg");
+    $(".error").removeClass("second__color__bg");
+    $(".error").removeClass("fifth__color__bg");
     // h1shat
     $(".h1shat").addClass("fourth__color__h1");
     $(".h1shat").removeClass("second__color__h1");
@@ -347,11 +340,17 @@ $(document).ready(function () {
     $(".line").removeClass("fifth__color__bg");
 
     // works
-    $(".works__box").addClass("fourth__color__bg");
-    $(".works__box").removeClass("second__color__bg");
-    $(".works__box").removeClass("third__color__bg");
-    $(".works__box").removeClass("first__color__bg");
-    $(".works__box").removeClass("fifth__color__bg");
+    $(".works__btn").addClass("fourth__color__bg");
+    $(".works__btn").removeClass("second__color__bg");
+    $(".works__btn").removeClass("third__color__bg");
+    $(".works__btn").removeClass("first__color__bg");
+    $(".works__btn").removeClass("fifth__color__bg");
+    // error
+    $(".error").addClass("fourth__color__bg");
+    $(".error").removeClass("second__color__bg");
+    $(".error").removeClass("third__color__bg");
+    $(".error").removeClass("first__color__bg");
+    $(".error").removeClass("fifth__color__bg");
     // contact
     $(".submit__btn").addClass("fourth__color__bg");
     $(".submit__btn").removeClass("second__color__bg");
@@ -392,11 +391,11 @@ $(document).ready(function () {
     $(".contact__btn").removeClass("fourth__color__bg");
     $(".contact__btn").removeClass("first__color__bg");
     // contact btn
-    $(".cv_button").addClass("fifth__color__bg");
-    $(".cv_button").removeClass("first__color__bg");
-    $(".cv_button").removeClass("third__color__bg");
-    $(".cv_button").removeClass("fourth__color__bg");
-    $(".cv_button").removeClass("second__color__bg");
+    $(".error").addClass("fifth__color__bg");
+    $(".error").removeClass("first__color__bg");
+    $(".error").removeClass("third__color__bg");
+    $(".error").removeClass("fourth__color__bg");
+    $(".error").removeClass("second__color__bg");
     // h1shat
     $(".h1shat").addClass("fifth__color__h1");
     $(".h1shat").removeClass("first__color__h1");
@@ -430,11 +429,11 @@ $(document).ready(function () {
     $(".line").removeClass("first__color__bg");
 
     // works
-    $(".works__box").addClass("fifth__color__bg");
-    $(".works__box").removeClass("second__color__bg");
-    $(".works__box").removeClass("third__color__bg");
-    $(".works__box").removeClass("fourth__color__bg");
-    $(".works__box").removeClass("first__color__bg");
+    $(".works__btn").addClass("fifth__color__bg");
+    $(".works__btn").removeClass("second__color__bg");
+    $(".works__btn").removeClass("third__color__bg");
+    $(".works__btn").removeClass("fourth__color__bg");
+    $(".works__btn").removeClass("first__color__bg");
     // contact
     $(".submit__btn").addClass("fifth__color__bg");
     $(".submit__btn").removeClass("second__color__bg");
@@ -607,3 +606,4 @@ function sendMail() {
     })
     .catch((err) => alert(err));
 }
+console.log(document.querySelector(".works__btn"));

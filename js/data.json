@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Booking Kosova",
+    "description": "A Web Application for Kosovo's tourists that help them to spend a great time in Kosovo",
+    "url": "https://innovationacademy-ks.com/bookingkosova",
+    "image": {
+      "one": "../assets/images/2.png",
+      "two": "../assets/images/booking-1.png",
+      "three": "../assets/images/booking-2.png",
+      "four": "../assets/images/booking-3.png"
+    },
+    "date": "May 05 2023",
+    "category": "Website"
+  },
+  {
+    "id": 2,
+    "title": "Digital Wallet",
+    "description": "A digital wallet Web Application to buy, trade, and view crypto currencies",
+    "url": "https://lorikramaa.github.io/CoinTracker/",
+    "image": {
+      "one": "../assets/images/6.png",
+      "two": "../assets/images/coin-1.png",
+      "three": "../assets/images/coin-2.png",
+      "four": "../assets/images/coin-3.png"
+    },
+    "date": "May 05 2023",
+    "category": "Website"
+  },
+  {
+    "id": 3,
+    "title": "Frogie Space",
+    "description": "A Website to an artcitecture company for showing their servicies",
+    "url": null,
+    "image": {
+      "one": "../assets/images/1.png",
+      "two": "../assets/images/frogie-1.png",
+      "three": "../assets/images/frogie-2.png",
+      "four": "../assets/images/frogie-3.png"
+    },
+    "date": "May 05 2023",
+    "category": "Website"
+  },
+  {
+    "id": 4,
+    "title": "Cyber Security",
+    "description": "A Website that teachs people around the world to prevent from cyber attacks, cyber bullying,etc",
+    "url": "https://innovationacademy-ks.com/laksh/cyber%20security/index.html",
+    "image": {
+      "one": "../assets/images/5.png",
+      "two": "../assets/images/cyber-1.png",
+      "three": "../assets/images/cyber-2.png",
+      "four": "../assets/images/cyber-3.png"
+    },
+    "date": "May 05 2023",
+    "category": "Website"
+  },
+  {
+    "id": 5,
+    "title": "Visuella",
+    "description": "A Website for an angency to share their servicies and make people comunicate with them",
+    "url": null,
+    "image": {
+      "one": "../assets/images/4.png",
+      "two": "../assets/images/visuella-1.png",
+      "three": "../assets/images/visuella-2.png",
+      "four": "../assets/images/visuella-3.png"
+    },
+    "date": "May 05 2023",
+    "category": "Website"
+  }
+]

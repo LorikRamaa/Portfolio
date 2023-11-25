@@ -1,0 +1,101 @@
+.single__content {
+  display: flex;
+  flex-direction: column;
+}
+.single__content img {
+  width: 100%;
+}
+.single__content div {
+  width: 100%;
+  margin: 10px;
+}
+#twoImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.single__content #twoImage img {
+  width: 49%;
+}
+#single__text {
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left__single h1 {
+  font-size: 45px;
+  margin: 0 0 20px 0;
+}
+#left__single a {
+  background-color: #282828;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+#right__single,
+#left__single {
+  width: 50%;
+}
+
+#right__single p {
+  margin: 10px 0;
+}
+#directories {
+  margin: 0 10px;
+}
+#error {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error {
+  font-size: 210px;
+  font-weight: 700;
+}
+#error a {
+  background-color: #282828;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#error h2 {
+  font-size: 50px;
+  margin: 0 0 20px 0;
+}
+.error.first__color__bg {
+  color: #0061c9;
+}
+.error.second__color__bg {
+  color: #691ed8;
+}
+.error.third__color__bg {
+  color: #d80056;
+}
+.error.fourth__color__bg {
+  color: #1779c9;
+}
+.error.fifth__color__bg {
+  color: #089e9c;
+}
+body.dark #left__single a {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+@media screen and (max-width: 650px) {
+  #single__text {
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  #right__single,
+  #left__single {
+    width: 100%;
+    margin-left: 10px;
+  }
+  #error {
+    height: 100%;
+  }
+}
