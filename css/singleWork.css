@@ -44,7 +44,7 @@
 #directories {
   margin: 0 10px;
 }
-#error {
+#error404 {
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -55,14 +55,14 @@
   font-size: 210px;
   font-weight: 700;
 }
-#error a {
+#error404 a {
   background-color: #282828;
   padding: 20px 30px;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
 }
-#error h2 {
+#error404 h2 {
   font-size: 50px;
   margin: 0 0 20px 0;
 }
@@ -95,7 +95,7 @@ body.dark #left__single a {
     width: 100%;
     margin-left: 10px;
   }
-  #error {
+  #error404 {
     height: 100%;
   }
 }

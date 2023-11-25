@@ -46,12 +46,16 @@ async function getData() {
   } else {
     let all = document.querySelector("#all");
     all.innerHTML = ``;
-    let singleContent = document.querySelector("#error");
+    let body = document.querySelector("body");
+    let singleContent = document.createElement("div");
     singleContent.innerHTML = `
-        <h1 class="error first__color__bg">404</h1>
-        <h2>Oops.. Bad request</h2>
-        <a href="../index.html">Back to home page</a>
+    <h1 class="error first__color__bg">404</h1>
+    <h2>Oops.. Bad request</h2>
+    <a href="../index.html">Back to home page</a>
     `;
+    singleContent.setAttribute("id", "error404");
+
+    body.appendChild(singleContent);
   }
 }
 getData();
