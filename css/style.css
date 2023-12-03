@@ -1402,6 +1402,9 @@ small {
   .social-medias {
     bottom: -10% !important;
   }
+  .services-h1 {
+    font-size: 55px;
+  }
   .home_content_div svg {
     padding: 25px 0;
     width: 80%;
