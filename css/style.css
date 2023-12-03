@@ -1396,13 +1396,18 @@ small {
   }
   .home_content_div {
     flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .social-medias {
+    bottom: -3% !important;
   }
   .home_content_div svg {
     padding: 25px 0;
-    width: 100%;
+    width: 80%;
   }
   .home-text h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .social-medias {
     position: absolute;
@@ -1487,5 +1492,8 @@ small {
   }
   .services__box {
     width: 100%;
+  }
+  .logo-div {
+    margin-left: -50px;
   }
 }
